@@ -1,0 +1,61 @@
+html {
+    background-color: #4f4f4f;
+}
+
+#main {
+    border: 3px solid white;
+    background-color: white;
+    margin:auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 400px;
+}
+
+#logo {
+    position: absolute;
+    left: 85%;
+    width: 80px;
+    height: 91px;
+}
+
+h1, p, input, button {
+    font-family: 'Indie Flower', cursive;
+    padding-left: 0.5cm;
+}
+
+p {
+    font-size: 22px;
+    text-align: justify;
+    padding-right: 7.5cm;
+}
+
+.form {
+    border-bottom: solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 200px;
+}
+
+#form {
+    position: absolute;
+    left: 60%;
+    top: 25%;
+}
+
+input::placeholder {
+    font-size: 21px;
+}
+
+input [type="text"]{
+    font-size: 21px;
+}
+ button {
+     text-align: center;
+     padding: 2px;
+     position: absolute;
+     left: 37%;
+ }
