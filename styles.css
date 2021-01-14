@@ -3,59 +3,67 @@ html {
 }
 
 #main {
+    flex-direction: column;
     border: 3px solid white;
     background-color: white;
-    margin:auto;
+    width: 600px;
+    height: 400px;
+    padding-left: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 600px;
-    height: 400px;
-}
-
-#logo {
-    position: absolute;
-    left: 85%;
-    width: 80px;
-    height: 91px;
+    margin: -210px 0 0 -310px;
 }
 
 h1, p, input, button {
     font-family: 'Indie Flower', cursive;
-    padding-left: 0.5cm;
 }
 
-p {
+.header {
+    overflow: auto;
+    height: 91px;
+}
+
+.header h1 {
+    width: 200px;
+    float: left;
+}
+
+
+#logo {
+    float: right;
+    width: 80px;
+    height: 91px;
+}
+
+#body{
+    overflow: auto;
+}
+
+#body p {
+    float: left;
+    width: 280px;
     font-size: 22px;
     text-align: justify;
-    padding-right: 7.5cm;
+    margin-top: 0px;
 }
 
-.form {
-    border-bottom: solid black;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    width: 200px;
+#forma {
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
 }
 
-#form {
-    position: absolute;
-    left: 60%;
-    top: 25%;
-}
 
 input::placeholder {
     font-size: 21px;
 }
 
-input [type="text"]{
+input[type="text"]{
     font-size: 21px;
+    border: none;
+    border-bottom: solid black 3px;
 }
- button {
+#button {
      text-align: center;
-     padding: 2px;
-     position: absolute;
-     left: 37%;
- }
+}
